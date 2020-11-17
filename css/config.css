@@ -1,0 +1,38 @@
+[class=col-] {
+  background: red; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 20px;
+  font-family: 'Lato';
+  background: #f2f2f2; }
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../fonts/lato/Lato-Black.ttf") format("ttf"); }
+.site-content {
+  padding-top: 150px; }
+
+.site-content-body {
+  clear: both; }
+
+.centered {
+  text-align: center; }
+
+.fluent {
+  padding: 10px;
+  word-spacing: 10px; }
+
+.gray {
+  color: gray; }
+
+.white {
+  color: white; }
+
+.garden_b {
+  background: lightblue;
+  border: solid gray 1px; }
+
+/*# sourceMappingURL=config.css.map */

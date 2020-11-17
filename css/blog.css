@@ -1,0 +1,16 @@
+@import url(header.css);
+@import url(config.css);
+.page-title {
+  font-weight: 900;
+  border-left: solid lightblue 3px;
+  padding-left: 10px; }
+
+.article {
+  background: #fff;
+  padding: 20px 0;
+  margin: 20px 0; }
+
+.section p {
+  line-height: 40px; }
+
+/*# sourceMappingURL=blog.css.map */

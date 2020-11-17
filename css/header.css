@@ -1,0 +1,32 @@
+.site-header {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  height: 75px; }
+  .site-header nav {
+    float: left;
+    line-height: 75px;
+    margin-left: 100px; }
+    .site-header nav a {
+      margin: 0 5px;
+      text-decoration: none; }
+    .site-header nav .sm-form {
+      display: none;
+      width: 100%; }
+      .site-header nav .sm-form input {
+        width: 100%; }
+  .site-header form {
+    float: right;
+    margin-top: 20px; }
+
+.site-header-logo {
+  float: left;
+  margin-top: 13px; }
+
+.icon {
+  display: none; }
+
+/*# sourceMappingURL=header.css.map */

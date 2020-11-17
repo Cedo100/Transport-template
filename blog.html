@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Template</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/blog.css"/>
+</head>
+<body>
+    <div class="site-container">
+        <div class="site-wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <a class="site-header-logo" href=""><img src="img/logo.svg" height="50px" width="200px" /></a>
+                    <nav class="site-header-menu">
+                        <a class="shm-item" href="index.html">Acceuil</a>
+                        <a class="shm-item" href="contact.html">Contact</a>
+                        <a class="shm-item" href="blog.html">Blog</a>
+                    </nav>
+                <form class="site-header-form form-inline">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="search"
+                        placeholder="Rechercher">
+                    </div>
+                    <button type="submit" class="btn btn-success">Chercher <img src="img/search.svg" height="25px" width="25px" /></button>
+                </form>
+                </div>
+            </header>
+
+            <div class="site-content container">
+                <div class="site-content-body">
+                    <!-- Un bon site doit etre reference SEO h1>h2>h3>h4>h5>h6-->
+                    <header class="row">
+                        <h1 class="page-title">#ACTUALITES</h1>
+                    </header>
+                    <section class="row section">
+                        <article class="row article">
+                            <div class="row post-title">
+                              <a class="btn btn-primary col-sm-3 col-sm-offset-3" href="#"><h2 class="">Lorem ipsum</h2></a>
+                            </div> 
+                            <div class="row post-sub-title">
+                              <a href="#"><h3 class="col-sm-6 col-sm-offset-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit</h3></a>
+                            </div> 
+                            <div class="row post-thumb">
+                              <a href="#"><img class="col-sm-6 col-sm-offset-3" height="200px" src="img/thumb.jpg" alt="thumb"></a>
+                            </div>
+                            <div class="row post-content">
+                              <p class="col-sm-6 col-sm-offset-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident veniam accusamus et rerum ex alias consequatur, accusantium a velit, facilis labore suscipit! Illo reprehenderit minus corporis. Dolorum odit itaque distinctio.</p>
+                            </div>
+                            <div class="row post-infos">
+                              <div class="col-sm-6 col-sm-offset-3">
+                                  <span>Il y a 6 heures... </span>
+                                  <span><img height="50px" width="50px" src="img/chat-dots.svg" alt="chat"> 1255 commentaires</span>
+                                  <span><img height="50px" width="50px" src="img/reply.svg" alt="reply"> 12 partages</span>
+                              </div>
+                            <div class="row post-footer">
+                              <button class="btn btn-primary col-sm-6 col-sm-offset-3">Lire la suire...</button>
+                            </div>
+                          </article>
+                    </section>
+                <div class="overlay"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
